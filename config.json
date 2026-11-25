@@ -12,8 +12,11 @@
         "decryption": "none"
       },
       "streamSettings": {
-        "network": "ws",
-        "wsSettings": { "path": "/ws" }
+        "network": "xhttp",
+        "xhttpSettings": {
+          "path": "/ws",
+          "mode": "auto"
+        }
       },
       "sniffing": {
         "enabled": true,
